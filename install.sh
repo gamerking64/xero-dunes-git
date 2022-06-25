@@ -8,7 +8,7 @@ echo "Creating Backups of ~/.config folder"
 echo "#####################################"
 mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
-echo "Removing old Latte-Dock & Lightly"
+echo "Removing old Latte-Dock"
 echo "#################################"
 sudo pacman -R --noconfirm latte-dock
 sleep 2
