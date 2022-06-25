@@ -2,11 +2,13 @@
 update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -92,7 +94,7 @@ ForegroundPositive=80,250,122
 ForegroundVisited=68,71,90
 
 [General]
-ColorScheme=Dracula-purple
+ColorScheme=DraculaPurple
 Name=Dracula-purple
 accentColorFromWallpaper=false
 shadeSortColumn=true
@@ -102,13 +104,15 @@ widgetStyle=Lightly
 Theme=Dracula
 
 [KDE]
-ShowIconsInMenuItems=true
-ShowIconsOnPushButtons=true
 contrast=5
 ColorScheme=Dracula-purple
+ColorSchemeHash=e44c8d483c47a28c7d0e32e6b41dd227803affe5
 LookAndFeelPackage=Dracula
 ShowDeleteCommand=true
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
 SingleClick=false
+contrast=5
 widgetStyle=Lightly
 
 [KFileDialog Settings]
