@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="596">
+  <name>Digital Gauge</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>mart</author>
+  <homepage>https://store.kde.org/p/1446770</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>58</rating>
+  <downloads>30904</downloads>
+  <installedfile>/home/gamerking/.local/share/ksysguard/sensorfaces/notmart.ksysguard.digitalgauge</installedfile>
+  <id>1446770</id>
+  <releasedate>2020-11-17</releasedate>
+  <summary>A face for the new system monitor plasmoid (and for the new Plasma Systemmonitor app) that shows a gauge made of glowing digital segments with a somewhat 80's look and feel.</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/00/21/61/1446770/9e0afd59e4a6ce8f0188eb69fcd5c3372c808036f9ce830769b4aa0e749405d257db.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/00/21/61/1446770/9e0afd59e4a6ce8f0188eb69fcd5c3372c808036f9ce830769b4aa0e749405d257db.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDU2MTQ4NjUiLCJvIjoiMSIsInMiOiI0ZGJmODEyNTUzZDk0YzRiNGExYTEwNzAxNmNlZmNmYzBmY2VmZjc0ZTBhNTMwMDU1YzQ5ZmRmNTYxMGExOTA5NjExZTQ0MmFmNDExOWJjNmU4OTgxYjA1NmVkMGExNzdkYmI4YjZjZmViY2MxZjY2YThkOTQ4NDUyZmJjMTdjOCIsInQiOjE2NTM3NTI1NzUsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuOTcuOTIuMTE2In0.MEsVnM3NUi_T8SpN9KhidU081jQDL32h1y3Hs5jtkSM/notmart.ksysguard.digitalgauge.plasmoid</payload>
+  <tags>linux,lgplv2,kde,unix,original-product,plasma,extension</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

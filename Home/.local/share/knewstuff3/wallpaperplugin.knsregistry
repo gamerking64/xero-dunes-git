@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="419">
+  <name>Inactive Blur</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>Zren</author>
+  <homepage>https://store.kde.org/p/1206340</homepage>
+  <licence></licence>
+  <version>5</version>
+  <rating>87</rating>
+  <downloads>72632</downloads>
+  <installedfile>/home/gamerking/.local/share/plasma/wallpapers/com.github.zren.inactiveblur</installedfile>
+  <id>1206340</id>
+  <releasedate>2019-10-02</releasedate>
+  <summary>A wallpaper plugin for Plasma5 that blurs the wallpaper when there's an active window.&lt;br />
+&lt;br />
+&lt;strong>Based on:&lt;/strong> This /r/unixporn submission&lt;br />
+&lt;a href="https://www.reddit.com/r/unixporn/comments/791cw8/i3gaps_compton_playing_with_blurs_fading_effects/" target="_blank"...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/39/56/1206340/0522eacfd09ed4211093ad3f20ca3fa061b9.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/39/56/1206340/0522eacfd09ed4211093ad3f20ca3fa061b9.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NzAwNTU0ODciLCJvIjoiMSIsInMiOiI5NDQ0MzQxNjYxMmViNDI3NTdjYjJkNDZlZTMzZWIwZWNiN2YwNzBlZWUwMjkxN2ZlMjlmNDNlNWRkMTQ1OTI0ZTQ1M2Q3ODczMzJhYTU1YmNiMzRjNTY3YjI0ODc5ZTFiZGVjMTM0MDE3NTQ4MzgxZTczZjU4NzE1ZDk1ODBjNiIsInQiOjE2NTM2NjE4NDgsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuOTcuOTIuMTIxIn0.y6j_kaFUhd21Gqzyy3zuJ-8NazcTLV2AUt1FiBFrqGU/inactiveblur-v4.zip</payload>
+  <tags>linux,extension,gplv2-later,kde,unix,plasma,wallpaper-plugin</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

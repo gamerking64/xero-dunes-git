@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="299">
+  <name>Miya Wallpaper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1715696</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>2771</downloads>
+  <installedfile>/home/gamerking/.local/share/wallpapers/Miya/*</installedfile>
+  <id>1715696</id>
+  <releasedate>2022-02-20</releasedate>
+  <summary>Miya kde is a dark clean theme for KDE Plasma desktop.&lt;br />
+&lt;br />
+In this repository you'll find:&lt;br />
+&lt;br />
+    Aurorae Themes&lt;br />
+    Kvantum Themes&lt;br />
+    Plasma Color Schemes&lt;br />
+    Plasma Desktop Themes&lt;br />
+    Plasma Look-and-Feel Settings&lt;br />
+    &lt;br />
+    &lt;br />
+&lt;strong>Miya Global Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1715702/" target="_blank" rel="nofollow">https://www.pling.com/p/1715702/&lt;/a>    &lt;br />
+  &lt;br />
+&lt;strong>Miya Plasma Theme  &lt;/strong>:&lt;a href="https://www.pling.com/p/1715701/" target="_blank" rel="nofollow">https://www.pling.com/p/1715701/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>Miya Sddm Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1715700/" target="_blank" rel="nofollow">https://www.pling.com/p/1715700/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>Miya Color Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1715698/" target="_blank" rel="nofollow">https://www.pling.com/p/1715698/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>Miya Aurorae Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1715697/" target="_blank" rel="nofollow">https://www.pling.com/p/1715697/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>Miya Kvantum &lt;/strong>:&lt;a href="https://www.pling.com/p/1715699/" target="_blank" rel="nofollow">https://www.pling.com/p/1715699/&lt;/a>&lt;br />
+&lt;br />
+------------------------------&lt;br />
+&lt;br />
+&lt;strong>Miya icon theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1715694/" target="_blank" rel="nofollow">https://www.pling.com/p/1715694/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/90/1715696/400.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/90/1715696/400.png</previewBig>
+  <payload>https://dl3.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NDUzOTU5MjUiLCJvIjoiMSIsInMiOiI2MTY3OWQ0Yzk2NmJmZjFjNTg2MGIyMDEyZTdmMjExYjY2MDRlNDFkOTFkZjNmZDA2MDI0Y2I2ZTBhM2I4NTQ4NWNiOWNiOTA1MzRlOTg2Njg2ZmEzMDJkMzE0YzNiYWI3YTVlY2FhOWFhODk5YmQyMWU3N2MxYWY2NGIxYjhkOSIsInQiOjE2NTM2MDQ5MjIsInN0ZnAiOm51bGwsInN0aXAiOiIxODUuOTcuOTIuMTIxIn0.IvAOf_WOYNNVVCMEh4ecZlTzxqPTZLSPlkUpo-ZhHVQ/Miya.zip</payload>
+  <tags>original-product,plasma,gplv3,wallpaper,artwork,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
