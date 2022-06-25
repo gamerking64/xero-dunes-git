@@ -4,9 +4,9 @@
 
 > Applying this rice will override all your settings. So make sure to create a backup of your system either via Snapper if using it, or TimeShift. Don't worry though, script will attempt to create a backup for you of your ~/.config folder before proceeding. Still better be safe than sorry.
 
--> Performance issues :
+-> Performance :
 
-> This rice as with all rices is not recommended to be used on lower-end hardware. iGPUs and less than 4GB RAM will result in sluggish and sometimes laggy behaviour. It's all due to Latte-Dock it's a memory hog, especially when using it way I do in my rices (sometimes 3 latte panels one dock). You've been warned. If you still insist on installing on lower-end systems, don't come to me asking for help..
+> This rice as with all rices has been throughly optimized for best performance.. If you have issues, kindly report them on our socials, Telegram/Discord.. we will try our best to help...
 
 
 ![XeroLayan](https://i.imgur.com/pFR3xuG.png)
