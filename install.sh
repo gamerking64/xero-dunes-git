@@ -19,7 +19,7 @@ sudo pacman -S --needed --noconfirm latte-dock-git lightly-git
 sleep 2
 echo "Installing Dracula Theme"
 echo "#################################"
-sudo pacman -S --needed --noconfirm ant-dracula-gtk-theme ant-dracula-kde-theme-git ant-dracula-kvantum-theme-git kvantum dracula-cursors-git dracula-icons-git dracula-xresources-git
+sudo pacman -S --needed --noconfirm ant-dracula-theme-git ant-dracula-kde-theme-git ant-dracula-kvantum-theme-git kvantum dracula-cursors-git dracula-icons-git dracula-xresources-git
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
