@@ -13,12 +13,9 @@ echo "#################################"
 sudo pacman -R --noconfirm latte-dock latte-dock-git
 sleep 2
 echo
-echo "Installing Lightly & LightlyShaders"
+echo "Installing Lightly For best look"
 echo "###################################"
 sudo pacman -S --needed --noconfirm lightly-git
-sudo pacman -S --needed --noconfirm git make cmake gcc gettext extra-cmake-modules qt5-tools qt5-x11extras kcrash kglobalaccel kde-dev-utils kio knotifications kinit kwin
-cd $HOME/ && git clone https://github.com/a-parhom/LightlyShaders
-cd LightlyShaders; mkdir qt5build; cd qt5build; cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
 sleep 2
 echo "Installing Dracula Theme"
 echo "#################################"
@@ -40,6 +37,14 @@ sudo ./Grub.sh
 sudo sed -i "s/#GRUB_GFXMODE=640x480/GRUB_GFXMODE=1920x1080/g" /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sleep 2
+echo
+echo "Installing LightlyShaders rounded"
+echo "###################################"
+sudo pacman -S --needed --noconfirm git make cmake gcc gettext extra-cmake-modules qt5-tools qt5-x11extras kcrash kglobalaccel kde-dev-utils kio knotifications kinit kwin
+cd $HOME/ && git clone https://github.com/a-parhom/LightlyShaders
+cd LightlyShaders; mkdir qt5build; cd qt5build; cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
+sleep 2
+echo
 echo "Rebooting To Apply Settings..."
 echo "#################################"
 reboot
