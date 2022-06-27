@@ -30,12 +30,15 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][109][Applets][111][Configuration][General]
-customButtonImage=/home/gamerking/xero.png
+alphaSort=true
+customButtonImage=/usr/share/logos/xero.png
 favoritesPortedToKAstats=true
+showIconsRootLevel=true
 showRecentDocs=false
+useCustomButtonImage=true
 
 [Containments][109][Applets][111][Shortcuts]
-global=Alt+F1
+global=Meta+F1
 
 [Containments][109][Applets][112]
 immutability=1
@@ -94,6 +97,23 @@ DialogWidth=1920
 
 [Containments][109][General]
 AppletOrder=111;112;118;110;113;115;117;116;114
+
+[Containments][119]
+activityId=cd915191-804f-4d50-8fc3-f8e5c0279f54
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][119][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][119][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/NordWall24.png
+SlidePaths=/usr/share/wallpapers
 
 [Containments][30]
 activityId=
@@ -263,7 +283,7 @@ ToolBoxButtonX=289
 ToolBoxButtonY=34
 
 [Containments][87][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/NordWall24.png
+Image=file:///usr/share/wallpapers/NordWall24.png
 SlidePaths=/home/gamerking/.local/share/wallpapers,/usr/share/wallpapers
 
 [ScreenMapping]

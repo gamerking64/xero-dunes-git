@@ -94,8 +94,8 @@ ForegroundPositive=80,250,122
 ForegroundVisited=68,71,90
 
 [General]
-ColorScheme=DraculaPurple
-Name=Dracula-purple
+ColorSchemeHash=e44c8d483c47a28c7d0e32e6b41dd227803affe5
+Name=DraculaPurple
 accentColorFromWallpaper=false
 shadeSortColumn=true
 widgetStyle=Lightly
@@ -105,14 +105,13 @@ Theme=Dracula
 
 [KDE]
 contrast=5
-ColorScheme=Dracula-purple
+ColorScheme=DraculaPurple
 ColorSchemeHash=e44c8d483c47a28c7d0e32e6b41dd227803affe5
 LookAndFeelPackage=Dracula
 ShowDeleteCommand=true
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
-contrast=5
 widgetStyle=Lightly
 
 [KFileDialog Settings]

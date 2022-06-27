@@ -1,6 +1,6 @@
 [KFileDialog Settings]
-Recent Files[$e]=xero.png,file:$HOME/xero.png,file:///usr/share/logos/xero.png
-Recent URLs[$e]=file:///usr/share/icons/scalable/apps/,file:$HOME/Pictures/,file:$HOME/
+Recent Files[$e]=xero.png,file:///usr/share/logos/xero.png,file:$HOME/xero.png
+Recent URLs[$e]=file:///usr/share/icons/scalable/apps/,file:$HOME/Pictures/,file:$HOME/,file:///usr/share/logos/
 iconViewIconSize=64
 
 [KPropertiesDialog]
