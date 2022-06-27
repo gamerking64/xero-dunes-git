@@ -19,7 +19,7 @@ sudo pacman -S --needed --noconfirm latte-dock-git lightly-git
 sleep 2
 echo "Installing Dracula Theme"
 echo "#################################"
-sudo pacman -S --needed --noconfirm ant-dracula-gtk-theme ant-dracula-kde-theme-git ant-dracula-kvantum-theme-git ant-dracula-theme-git kvantum dracula-cursors-git dracula-icons-git dracula-xresources-git
+sudo pacman -S --needed --noconfirm ant-dracula-gtk-theme ant-dracula-kde-theme-git ant-dracula-kvantum-theme-git kvantum dracula-cursors-git dracula-icons-git dracula-xresources-git
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
@@ -30,13 +30,13 @@ echo "#################################"
 cp -Rf Configs/Home/. ~
 sudo cp -Rf Configs/System/. /
 sleep 2
-#echo "Applying Grub Theme...."
-#echo "#################################"
-#chmod +x CyberRe.sh
-#sudo ./CyberRe.sh
-#sudo sed -i "s/#GRUB_GFXMODE=640x480/GRUB_GFXMODE=1920x1080/g" /etc/default/grub
-#sudo grub-mkconfig -o /boot/grub/grub.cfg
-#sleep 2
+echo "Applying Grub Theme...."
+echo "#################################"
+chmod +x Grub.sh
+sudo ./Grub.sh
+sudo sed -i "s/#GRUB_GFXMODE=640x480/GRUB_GFXMODE=1920x1080/g" /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sleep 2
 echo "Rebooting To Apply Settings..."
 echo "#################################"
 reboot
