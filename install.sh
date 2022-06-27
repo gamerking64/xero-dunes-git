@@ -10,12 +10,15 @@ mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 sleep 2
 echo "Removing old Latte-Dock"
 echo "#################################"
-sudo pacman -R --noconfirm latte-dock
+sudo pacman -R --noconfirm latte-dock latte-dock-git
 sleep 2
 echo
-echo "Installing New latte-Git version"
-echo "#################################"
-sudo pacman -S --needed --noconfirm latte-dock-git lightly-git
+echo "Installing Lightly & LightlyShaders"
+echo "###################################"
+sudo pacman -S --needed --noconfirm lightly-git
+sudo pacman -S --needed --noconfirm git make cmake gcc gettext extra-cmake-modules qt5-tools qt5-x11extras kcrash kglobalaccel kde-dev-utils kio knotifications kinit kwin
+cd $HOME/ && git clone https://github.com/a-parhom/LightlyShaders
+cd LightlyShaders; mkdir qt5build; cd qt5build; cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && make && sudo make install
 sleep 2
 echo "Installing Dracula Theme"
 echo "#################################"
