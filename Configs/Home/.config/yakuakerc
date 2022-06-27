@@ -13,4 +13,5 @@ FirstRun=false
 
 [Window]
 Height=45
+ShowTabBar=false
 Width=70
