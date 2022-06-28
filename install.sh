@@ -15,11 +15,11 @@ sleep 2
 echo
 echo "Installing Lightly For best look"
 echo "###################################"
-sudo pacman -S --needed --noconfirm lightly-git
+sudo pacman -S --needed --noconfirm lightly-git nordic-wallpapers
 sleep 2
 echo "Installing Dracula Theme"
 echo "#################################"
-sudo pacman -S --needed --noconfirm ant-dracula-theme-git ant-dracula-kde-theme-git ant-dracula-kvantum-theme-git kvantum dracula-cursors-git dracula-icons-git dracula-xresources-git nordic-wallpapers
+sudo pacman -S --needed --noconfirm ant-dracula-theme-git ant-dracula-kde-theme-git ant-dracula-kvantum-theme-git kvantum dracula-cursors-git dracula-icons-git dracula-xresources-git
 sleep 2
 echo "Installing Fonts"
 echo "#################################"
