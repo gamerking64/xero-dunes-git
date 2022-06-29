@@ -28,6 +28,7 @@ sleep 2
 echo "Applying new Rice, hold on..."
 echo "#################################"
 cp -Rf Configs/Home/. ~
+sed -i "s/{.*}/{C2}/g" ~/XeroAscii
 sudo sed -i "s/Current=.*/Current=Dracula/" /etc/sddm.conf.d/kde_settings.conf
 sudo sed -i "s/CursorTheme=.*/CursorTheme=Dracula-cursors/" /etc/sddm.conf.d/kde_settings.conf
 sleep 2
