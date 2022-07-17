@@ -6,11 +6,13 @@ echo "##########################################"
 sleep 5
 echo "Creating Backups of ~/.config folder"
 echo "#####################################"
-mv ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
+cp -r ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
+rm ~/.config/autostart/org.kde.latte-dock.desktop
 sleep 2
 echo "Removing old Latte-Dock"
 echo "#################################"
-sudo pacman -R --noconfirm latte-dock latte-dock-git
+sudo pacman -R --noconfirm latte-dock 
+sudo pacman -R --noconfirm latte-dock-git
 sleep 2
 echo
 echo "Installing Lightly For best look"
