@@ -1,5 +1,11 @@
 ### This is XeroLinux's Dunes Rice
 
+### Disclosure
+
+> I would like to clarify one very important aspect of ricing. We use custom themes in every one of our rices, and those might not get updated very often, if at all by their respective developers/artists, which might result in some parts of the system and apps not to get themed correctly. That, my friends, is unfortunately out of our hands. In case that happens, kindly report back, we will check with them for any fixes/updates, if none are available, we will have no choice but to archive affected rice, and hide it, until fixes are applied and themes updated... Sorry for that...
+
+![XeroLayan](https://i.imgur.com/pFR3xuG.png)
+
 -> Some notes before proceeding :
 
 > Applying this rice will override all your settings. So make sure to create a backup of your system either via Snapper if using it, or TimeShift. Don't worry though, script will attempt to create a backup for you of your ~/.config folder before proceeding. Still better be safe than sorry.
@@ -7,21 +13,6 @@
 -> Performance :
 
 > This rice as with all rices has been throughly optimized for best performance.. If you have issues, kindly report them on our socials, Telegram/Discord.. we will try our best to help...
-
-
-![XeroLayan](https://i.imgur.com/pFR3xuG.png)
-
-# Requirement for *Other* Arch KDE Distros ...
-
-First off, note that if you want to use on other Arch based distros with KDE than **XeroLinux** you will need to add my repo since most of the packages are only available there. (This does not apply to XeroLinux as repo already there).
-
-Open the file `/etc/pacman.conf` and add my repo at the bottom of the file :
-```
-[xerolinux_repo]
-SigLevel = Optional TrustAll
-Server = https://xerolinux.github.io/$repo/$arch
-```
-Save the file, and refresh databases via `sudo pacman -Sy` then follow below step...
 
 # Installation
 
@@ -40,11 +31,7 @@ Just clone this repository, run terminal inside directory and run installer Scri
 # F.A.Q
 
 > Q: Will this rice work on other distros Like Fedora or Debian based ?<br />
-> A : If it's not **Arch-KDE** or **XeroLinux** then no. Sorry.
+> A : If it's not **XeroLinux** then no. Sorry.
 >
 > Q : I am running *Pre-Customized* **Arch** Distro with *KDE* can I use your rice ?<br />
 > A : Short answer, *might*. Long answer, too many variables, I don't guarantee success.
-
-# Disclosure
-
-> Use this at your own Risk ! I won't be held liable if you didn't follow above recommendations.... Always Backup.. If you don't and break your system it's on you !!!!
